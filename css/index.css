@@ -16,3 +16,22 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #65B891;
+	font-size: 48px;
+	text-align: center;
+
+	transition: all 300ms linear;
+}
+
+a:hover,
+a:focus {
+	opacity: .6;
+}
